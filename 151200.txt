@@ -1,0 +1,38 @@
+4.	git clone "https://github.com/reeturn01/SI_2022_lab1_151200.git"
+5.	git add shopping_list.txt
+	git commit -m 'Add 5 items tot the shopping list'
+6.	git commit -a -m 'Add quantities to the items'
+7.	git branch branch1
+8.	git branch branch2
+9.	git push origin master
+	git push origin branch1
+	git push origin branch2
+10.	git checkout branch1
+11.	git commit -a -m 'Change quantity of item #5'
+12.	git checkout master
+13.	git commit -a -m 'Change quantity of item #2'
+14.	git push origin branch1
+	git push origin branch2
+	git push origin master
+15.	git checkout branch2
+16.	git commit -a -m 'Modify item #4'
+18.	git add shopping_list.txt
+	git commit --amend -m 'Modify item #4 and add item #6'
+20.	git checkout master
+	git merge branch1
+
+При спојувањето не се појавува конфликт, и спојувањето се извршува по fast-forward стратегијата, бидејќи гранката branch1  е понапред од гранката master
+
+21.	git merge branch2
+	git add shopping_list.txt
+	git commit 'Solved merge commit'	
+
+Се појавува конфликт поради несовпаѓање на содржините на фајлот shopping_list.txt, одлучуваме која верзија сакаме да ја задржиме и ја
+менуваме содржината на другата верзија да се совпаѓа со нејзе. Откако ќе ги направиме промените, ги додаваме со git add, и потоа правиме 
+git commit за да го решиме конфликтот
+
+22.	git add 151200.txt
+	git commit -m 'Add docs'
+23.	git push origin master
+	git push origin branch1
+	git push origin branch2
