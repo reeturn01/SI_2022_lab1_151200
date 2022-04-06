@@ -1,5 +1,6 @@
 mouse x3
 keyboard x615
 monitor x3
-CPU x5
 GPU x500
+HDD x5
+power supply x20
