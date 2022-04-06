@@ -1,5 +1,5 @@
-mouse
-keyboard
-monitor
-CPU
-GPU
+mouse x3
+keyboard x2
+monitor x3
+CPU x5
+GPU x10
