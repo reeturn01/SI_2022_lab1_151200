@@ -2,4 +2,4 @@ mouse x3
 keyboard x615
 monitor x3
 CPU x5
-GPU x10
+GPU x500
